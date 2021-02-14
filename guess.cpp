@@ -14,7 +14,7 @@ int main() {
 	int left = 0;
 	int human = 0;
 	int tries = 10;
-	int Maxes = 100;
+	int const Maxes = 100;
 	srand(time(NULL));
     int guess = 0;
     guess = rand() % Maxes;
